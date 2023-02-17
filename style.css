@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+:root {
+    --cor0: #45214A;
+    --cor1: #323050;
+    --cor2: #21445B;
+    --cor3: #1A6566;
+    --cor4: #5D8A66;
+}
+
+body {
+    background-color: #b5aa9d;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    text-align: center;
+    min-height: 120px;
+    color: white;
+}
+
+header > h1 {
+    padding-top: 50px;
+    text-shadow: 1px 1px 4px black;
+}
+
+header > p {
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 10px 30px 10px;
+    text-shadow: 1px 1px 4px black;
+}
+
+nav {
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 1px 5px #00000050;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    text-shadow: 1px 1px 4px black;
+}
+
+nav > a:hover {
+    background-color: var(--cor0);
+    color: #5D8A66;
+    transition: .5s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 1px 1px 5px #00000050;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h3 {
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    color: white;
+    text-indent: 8px;
+    padding: 4px;
+}
+
+main  p {
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2rem;
+}
+
+main a {
+    color: #b5aa9d;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main img {
+    width: 100%;
+}
+
+.imagem {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    border: 2px solid var(--cor4);
+}
+
+aside {
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #00000040;
+}
+
+aside > p {
+    color: white;
+}
+
+aside > h3 {
+    background-color: var(--cor3);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    color: #b5aa9d;
+}
+
+footer {
+    background-color: var(--cor4);
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
