@@ -101,7 +101,7 @@ main img {
     max-width: 800px;
     display: block;
     margin: auto;
-    border: 2px solid var(--cor4);
+    border: 1px solid var(--cor4);
 }
 
 aside {
